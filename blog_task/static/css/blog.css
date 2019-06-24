@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Eve;
+    src: url('eve.ttf');
+}
+
+@font-face {
+    font-family: Retro;
+    src: url('retro.ttf');
+}  
+
+body {
+    background: white url("images/background.gif") no-repeat right bottom;
+}
+
+h1 {
+    font-family: Eve;
+    color: white;
+    font-size:35pt;
+    text-align:center;
+}
+
+h2 {
+    font-family: Eve;
+    color: white;
+    font-size:20pt;
+    text-align:center;
+}
+
+a:link {
+    color:#008000;
+    text-decoration:none;
+}
+
+a:visited {
+    color:#E09016;
+    text-decoration:none;
+}
+
+table, td {
+    font-family: Retro;
+    border-style:solid;
+    border-color:#3A5779;
+    border-width:5px 5px 5px 13px;
+    background:#1B2741;
+    font-size:10pt;
+    color:gray;
+    padding:8px;
+}
+
+th {
+    font-family: Eve;
+    border-style:solid;
+    border-color:#3A5779;
+    border-width:5px 5px 5px 13px;
+    background:#1B2741;
+    font-size:14pt;
+    color:white;
+    padding:15px;
+}
+
+#container {
+  margin: 0 auto;
+  width: 1000px;
+  text-align: center;
+}
+
+#TransactionAmount {
+  color: #FF0000;
+}
+
+#TransactionAmount.green {
+  color: #33FF3C;
+}
